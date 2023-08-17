@@ -1,0 +1,153 @@
+.grid
+{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+.sub-main
+{
+    display:flex;
+    flex-direction: column;
+    width:314px;
+    height:370px;
+    padding: 60px 68px 10px;
+}
+ body
+{
+     background-image:url(https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+     margin:0px;
+     background-repeat: no-repeat;
+     font-family: 'Poppins', sans-serif;
+     background-color: #000000BF;
+     background-size: auto;
+} 
+.main
+{
+   display:flex;
+   flex-wrap:wrap;
+   height:100vh;
+   justify-content:center;
+   align-content: center;
+   background-color: #000000BF; 
+   
+}
+img
+{
+    height:90px;
+    margin-left: 30px;
+    border:0px;
+
+}
+.logo
+{
+    background-color: #000000BF;
+}
+
+h1{
+    margin-bottom:28px;
+    color:white;
+    font-size:32px;
+}
+.email,.padding
+{
+  padding-bottom:16px;
+}
+.email input,.password input
+{
+    border:none;
+    padding: 20px;
+    width:86%;
+    border-radius: 5px;
+    background-color:#333333;
+}
+::placeholder
+{
+    color:#999999;
+}
+.button
+{
+    background-color: #e50914;
+    width:99%;
+    border-radius:5px;
+    border:none;
+    margin:24px 0px 12px;
+    padding:16px;
+    color:white;
+}
+.box
+{
+    grid-column: spawn 2;
+    margin-top:100px;
+    margin-bottom:50px;
+    background-color: #000000BF;  
+    border:none;
+    height:660px;
+    width:450px;
+} 
+.text-help
+{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.check-text
+{
+    color:
+    #737373;
+    font-size:14px;
+}
+.check
+{
+    color:bright whitesmoke;
+}
+.help a
+{
+    color:
+    #737373;
+    text-decoration: none;
+    font-size:14x;
+}
+.nedd a
+{
+    font-weight: bold;
+   color: white;
+   text-decoration: none;
+}
+p
+{
+    color:#999999;
+    font-size:12px;
+}
+.nedd p
+{
+    margin-top:65px;
+}
+
+a:hover
+{
+    text-decoration:underline;
+}
+.col3
+{
+    background-color: #000000BF;
+}
+@media only screen and (max-width: 600px) {
+    body 
+    {
+      background-image: none;
+      background-color:black;
+    }
+    .grid
+   {
+    grid-template-columns: 0.5fr;
+   }
+    .box{
+        height: 100vh;
+    }
+    .main
+    {
+       
+    }
+  }
+
+
+
